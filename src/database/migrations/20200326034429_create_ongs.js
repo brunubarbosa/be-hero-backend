@@ -4,11 +4,11 @@ exports.up = function(knex) {
     console.log(table)
 
     table.string('id').primary();
-    table.string('name').notNulable();
-    table.string('email').notNulable();
-    table.string('whatsapp').notNulable();
-    table.string('city').notNulable();
-    table.string('uf', 2).notNulable();
+    table.string('name').notNullable();
+    table.string('email').notNullable();
+    table.string('whatsapp').notNullable();
+    table.string('city').notNullable();
+    table.string('uf', 2).notNullable();
   })
 };
 
